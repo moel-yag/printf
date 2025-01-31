@@ -81,11 +81,11 @@ This will display the results of the various format specifiers supported by your
 
 ## Installation
 
-    Clone the repository:
+  Clone the repository:
 ```bash
 git clone https://github.com/yourusername/ft_printf.git
 ```
-Navigate to the project directory:
+  Navigate to the project directory:
 ```bash
 cd ft_printf
 ```
