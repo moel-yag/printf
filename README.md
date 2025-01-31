@@ -42,12 +42,13 @@ To compile the project, use the following `make` command:
 make
 ```
 This will create the libftprintf.a static library (if your project includes a libft implementation) or an executable file containing your ft_printf function.
-Testing the Implementation
+
+## Testing the Implementation
 
 You can test the ft_printf function by creating a main.c file with different format specifiers and checking the output.
 
 Example:
-
+```c
 #include "ft_printf.h"
 
 int main() {
@@ -64,21 +65,21 @@ int main() {
 
     return 0;
 }
-
+```
 Compile your test program:
-
+```bash
 gcc -o test main.c ft_printf.a
 ./test
-
+```
 This will display the results of the various format specifiers supported by your ft_printf implementation.
-Features
+## Features
 
     Variadic Function: Uses stdarg.h to handle a variable number of arguments.
     Flexible Formatting: Supports a variety of format specifiers and optional flags.
     Memory Management: Efficient memory usage, ensuring minimal overhead.
     Customization: Easily extendable to add additional format specifiers or features.
 
-Installation
+## Installation
 
     Clone the repository:
 
@@ -89,12 +90,12 @@ Navigate to the project directory:
 cd ft_printf
 
 Build the project:
-
+```bash
     make
-
+```
     Link the compiled ft_printf.a library to your projects, or use it directly in your applications.
 
-Usage
+## Usage
 
 Include the ft_printf.h header in your source file and use the ft_printf function as follows:
 
@@ -109,11 +110,11 @@ int main() {
     return 0;
 }
 
-Compilation Example:
-
+## Compilation Example:
+```bash
 gcc -o my_program my_program.c ft_printf.a
-
-Contributing
+```
+## Contributing
 
 If you'd like to contribute to this project, you can:
 
@@ -123,8 +124,8 @@ If you'd like to contribute to this project, you can:
     Push to your fork (git push origin new-feature).
     Open a pull request on GitHub.
 
+## Acknowledgements
 This project is a part of the 42 curriculum. Many thanks to the 42 community for the support and resources provided during the development of this project.
-
 
 ### What You Should Customize:
 - The list of supported format specifiers depends on the features you've implemented. If you supported flags like `#`, `0`, `-`, or specific precision widths, you can add those details to the specifiers list.
