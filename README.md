@@ -91,9 +91,9 @@ cd ft_printf
 ```
 Build the project:
 ```bash
-    make
+make
 ```
-    Link the compiled ft_printf.a library to your projects, or use it directly in your applications.
+Link the compiled ft_printf.a library to your projects, or use it directly in your applications.
 
 ## Usage
 
